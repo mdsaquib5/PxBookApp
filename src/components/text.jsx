@@ -5,6 +5,8 @@ const text = () => {
         <div>Developer</div>
         <div>Md Saquib Repo merged with Nisha's branch</div>
         <div>Pull request successful</div>
+        <div>Pull request Done</div>
+        <div>Pull request Done</div>
     </div>
   )
 }
