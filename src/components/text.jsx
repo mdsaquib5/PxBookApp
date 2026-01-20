@@ -7,6 +7,7 @@ const text = () => {
         <div>Pull request successful</div>
         <div>Pull request Done</div>
         <div>Pull request Done</div>
+        <div>Changes done by Nisha...</div>
     </div>
   )
 }
