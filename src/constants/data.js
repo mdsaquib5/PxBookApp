@@ -30,7 +30,7 @@ export const booksData = [
         author: "Bill Bryson",
         price: 12.99,
         discount: 14.99,
-        img: "../../public/assets/images/hero.webp"
+        img: "../assets/images/hero.webp"
     },
     {
         id: 2,
@@ -40,7 +40,7 @@ export const booksData = [
         author: "Bill Bryson",
         price: 12.99,
         discount: 14.99,
-        img: "../../public/assets/images/hero.webp"
+        img: "../assets/images/hero.webp"
     },
     {
         id: 3,
@@ -50,7 +50,7 @@ export const booksData = [
         author: "Bill Bryson",
         price: 12.99,
         discount: 14.99,
-        img: "../../public/assets/images/hero.webp"
+        img: "../assets/images/hero.webp"
     },
     {
         id: 4,
@@ -60,7 +60,7 @@ export const booksData = [
         author: "Bill Bryson",
         price: 12.99,
         discount: 14.99,
-        img: "../../public/assets/images/hero.webp"
+        img: "../assets/images/hero.webp"
     },
     {
         id: 5,
@@ -70,7 +70,7 @@ export const booksData = [
         author: "Bill Bryson",
         price: 12.99,
         discount: 14.99,
-        img: "../../public/assets/images/hero.webp"
+        img: "../assets/images/hero.webp"
     }
 ];
 
