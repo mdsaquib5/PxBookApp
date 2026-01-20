@@ -5,12 +5,12 @@ import Footer from "./components/layout/Footer";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
-import "./styles/global.scss";
+import "./styles/global.css";
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="app-root">
+      <div>
         <Navbar />
 
         <Routes>
