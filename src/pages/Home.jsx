@@ -8,6 +8,8 @@ import FeatureBook from "../components/ui/FeatureBook";
 import FlashSale from "../components/ui/FlashSale";
 import Blogs from "../components/ui/Blogs";
 import Testimonial from "../components/ui/Testimonial";
+import Stats from '../components/ui/Stats';
+import Footer from "../components/ui/Footer";
 
 const Home = () => {
   return (
@@ -22,6 +24,8 @@ const Home = () => {
       <FlashSale />
       <Blogs />
       <Testimonial />
+      <Stats />
+      <Footer />
     </>
   );
 };
