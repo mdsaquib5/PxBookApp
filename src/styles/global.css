@@ -920,3 +920,7 @@ header {
 .fsSale{
     font-size: 35px;
 }
+
+.saleTestimonial :is(.sellerImg, .sellerContent){
+    width: 100%;
+}
