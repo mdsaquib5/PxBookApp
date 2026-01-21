@@ -8,10 +8,10 @@ import 'swiper/css/free-mode';
 
 const Testimonial = () => {
     const testimonialData = [
-        { id: 1, name: "Valerie J.", role: "CEO", logo: "/assets/images/bing.png", avatar: "/assets/images/avatar-4.jpg" },
-        { id: 2, name: "Hannah R.", role: "CEO", logo: "/assets/images/hubs.png", avatar: "/assets/images/avatar-4.jpg" },
-        { id: 3, name: "Pearl B. Hill", role: "Marketing", logo: "/assets/images/bing.png", avatar: "/assets/images/avatar-4.jpg" },
-        { id: 4, name: "Mandy Wood", role: "Designer", logo: "/assets/images/hubs.png", avatar: "/assets/images/avatar-4.jpg" },
+        { id: 1, name: "Valerie J.", role: "CEO", logo: "/assets/images/bing.webp", avatar: "/assets/images/avatar-4.webp" },
+        { id: 2, name: "Hannah R.", role: "CEO", logo: "/assets/images/hubs.webp", avatar: "/assets/images/avatar-4.webp" },
+        { id: 3, name: "Pearl B. Hill", role: "Marketing", logo: "/assets/images/bing.webp", avatar: "/assets/images/avatar-4.webp" },
+        { id: 4, name: "Mandy Wood", role: "Designer", logo: "/assets/images/hubs.webp", avatar: "/assets/images/avatar-4.webp" },
     ];
 
     // Common Configuration

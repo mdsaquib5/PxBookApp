@@ -1,21 +1,21 @@
 export const servicesData = [
     {
-        icon: "/assets/images/service-icon-1.png",
+        icon: "/assets/images/service-icon-1.webp",
         title: "Quick Delivery",
         description: "Optimized for a smaller build size, faster dev compilation and dozens of other improvements."
     },
     {
-        icon: "/assets/images/service-icon-1.png",
+        icon: "/assets/images/service-icon-1.webp",
         title: "Quick Delivery",
         description: "Optimized for a smaller build size, faster dev compilation and dozens of other improvements."
     },
     {
-        icon: "/assets/images/service-icon-1.png",
+        icon: "/assets/images/service-icon-1.webp",
         title: "Quick Delivery",
         description: "Optimized for a smaller build size, faster dev compilation and dozens of other improvements."
     },
     {
-        icon: "/assets/images/service-icon-1.png",
+        icon: "/assets/images/service-icon-1.webp",
         title: "Quick Delivery",
         description: "Optimized for a smaller build size, faster dev compilation and dozens of other improvements."
     }

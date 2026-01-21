@@ -20,7 +20,9 @@ const Navbar = () => {
                 <div className="container">
                     <div className="headerContainer">
                         <div className="logo">
-                            <div>Logo</div>
+                            <Link to={'/'}>
+                                <img src="/assets/images/header-logo.webp" alt="Header Logo" />
+                            </Link>
                         </div>
                         <div className="searchMenu">
                             <div className="menu">

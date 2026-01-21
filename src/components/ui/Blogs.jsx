@@ -20,7 +20,7 @@ const Blogs = () => {
                                 <div className="blogTitle"><Link to={'/'}>Blog Title</Link></div>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempora ipsa iusto cum provident saepe vero enim accusantium, labore, error consequuntur ea laboriosam a odio itaque aliquid animi porro ad.</p>
                                 <div className="blogAuthor">
-                                    <Link to={'/'}><img src="/assets/images/avatar-4.jpg" alt="" /></Link>
+                                    <Link to={'/'}><img src="/assets/images/avatar-4.webp" alt="" /></Link>
                                     <div className="authorInfo">
                                         <div className="blogAuthorName"><Link to={'/'}>Author Name</Link></div>
                                         <div>Mar 17 2025</div>
@@ -38,7 +38,7 @@ const Blogs = () => {
                                 <div className="blogTitle"><Link to={'/'}>Blog Title</Link></div>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempora ipsa iusto cum provident saepe vero enim accusantium, labore, error consequuntur ea laboriosam a odio itaque aliquid animi porro ad.</p>
                                 <div className="blogAuthor">
-                                    <Link to={'/'}><img src="/assets/images/avatar-4.jpg" alt="" /></Link>
+                                    <Link to={'/'}><img src="/assets/images/avatar-4.webp" alt="" /></Link>
                                     <div className="authorInfo">
                                         <div className="blogAuthorName"><Link to={'/'}>Author Name</Link></div>
                                         <div>Mar 17 2025</div>
@@ -56,7 +56,7 @@ const Blogs = () => {
                                 <div className="blogTitle"><Link to={'/'}>Blog Title</Link></div>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempora ipsa iusto cum provident saepe vero enim accusantium, labore, error consequuntur ea laboriosam a odio itaque aliquid animi porro ad.</p>
                                 <div className="blogAuthor">
-                                    <Link to={'/'}><img src="/assets/images/avatar-4.jpg" alt="" /></Link>
+                                    <Link to={'/'}><img src="/assets/images/avatar-4.webp" alt="" /></Link>
                                     <div className="authorInfo">
                                         <div className="blogAuthorName"><Link to={'/'}>Author Name</Link></div>
                                         <div>Mar 17 2025</div>
@@ -74,7 +74,7 @@ const Blogs = () => {
                                 <div className="blogTitle"><Link to={'/'}>Blog Title</Link></div>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempora ipsa iusto cum provident saepe vero enim accusantium, labore, error consequuntur ea laboriosam a odio itaque aliquid animi porro ad.</p>
                                 <div className="blogAuthor">
-                                    <Link to={'/'}><img src="/assets/images/avatar-4.jpg" alt="" /></Link>
+                                    <Link to={'/'}><img src="/assets/images/avatar-4.webp" alt="" /></Link>
                                     <div className="authorInfo">
                                         <div className="blogAuthorName"><Link to={'/'}>Author Name</Link></div>
                                         <div>Mar 17 2025</div>
