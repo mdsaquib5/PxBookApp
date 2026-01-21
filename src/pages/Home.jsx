@@ -6,6 +6,8 @@ import TopCategories from "../components/ui/TopCategories";
 import TopRated from "../components/ui/TopRated";
 import FeatureBook from "../components/ui/FeatureBook";
 import FlashSale from "../components/ui/FlashSale";
+import Blogs from "../components/ui/Blogs";
+import Testimonial from "../components/ui/Testimonial";
 
 const Home = () => {
   return (
@@ -18,6 +20,8 @@ const Home = () => {
       <TopRated />
       <FeatureBook />
       <FlashSale />
+      <Blogs />
+      <Testimonial />
     </>
   );
 };

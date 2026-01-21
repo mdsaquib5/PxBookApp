@@ -1,8 +1,19 @@
+import { useEffect, useState } from 'react';
+import { calculateTimeLeft, formatTime } from '../../constants/timer';
 import { FaStar } from 'react-icons/fa';
 import { FaBasketShopping } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 
 const FlashSale = () => {
+    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft('2026-01-28 00:00:00'));
+
+    useEffect(() => {
+        const timer = setInterval(() => {
+            setTimeLeft(calculateTimeLeft('2026-01-28 00:00:00'));
+        }, 1000);
+
+        return () => clearInterval(timer);
+    }, []);
     return (
         <>
             <section className="saleBg">
@@ -16,7 +27,15 @@ const FlashSale = () => {
                                 labore, error consequuntur ea laboriosam a odio itaque aliquid
                                 animi porro ad.
                             </p>
-                            <div className='timer'></div>
+                            <div className='timer'>
+                                <div className="timerValue">{formatTime(timeLeft.days)}</div>
+                                <span>:</span>
+                                <div className="timerValue">{formatTime(timeLeft.hours)}</div>
+                                <span>:</span>
+                                <div className="timerValue">{formatTime(timeLeft.minutes)}</div>
+                                <span>:</span>
+                                <div className="timerValue">{formatTime(timeLeft.seconds)}</div>
+                            </div>
                         </div>
                         <div className="saleTestimonial">
                             <div className="sellerCard withBg">
