@@ -6,8 +6,8 @@ const Trending = () => {
     <>
         <section>
             <div className="container">
-                <div className="trendingTitle">
-                    <div className="trendingHeading">Trending this week</div>
+                <div className="sectionTitle">
+                    <div className="sectionHeading">Trending this week</div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempora ipsa iusto cum provident saepe vero enim accusantium, labore, error consequuntur ea laboriosam a odio itaque aliquid animi porro ad.</p>
                 </div>
                 <div className="booksGrid">

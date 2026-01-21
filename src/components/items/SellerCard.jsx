@@ -2,7 +2,7 @@ import { FaStar } from "react-icons/fa";
 
 const SellerCard = ({ item }) => {
     return (
-        <div className="sellerCard">
+        <div className="sellerCard withBg">
             <div className="sellerImg">
                 <img src={item.img} alt="" />
             </div>

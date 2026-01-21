@@ -1,14 +1,16 @@
-import SellerCard from "../items/SellerCard";
+import { Link } from "react-router-dom";
+import { FaArrowRight } from "react-icons/fa";
 import { sellerData } from "../../constants/data";
+import SellerCard from "../items/SellerCard";
 
-const BestSeller = () => {
+const FeatureBook = () => {
     return (
         <>
-            <section>
+            <section className="featureBook">
                 <div className="container">
-                    <div className="sectionTitle">
-                        <div className="sectionHeading">Best Seller</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempora ipsa iusto cum provident saepe vero enim accusantium, labore, error consequuntur ea laboriosam a odio itaque aliquid animi porro ad.</p>
+                    <div className="titleBtn">
+                        <div className="sectionHeading">Feature Book</div>
+                        <Link to={'/'} className="btn borderBtn">View more <FaArrowRight /></Link>
                     </div>
                     <div className="sellerGrid">
                         {
@@ -23,4 +25,4 @@ const BestSeller = () => {
     )
 }
 
-export default BestSeller;
+export default FeatureBook;

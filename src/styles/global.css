@@ -316,7 +316,7 @@ header {
 }
 
 /* trending section css starts */
-.trendingTitle {
+.sectionTitle {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -327,14 +327,14 @@ header {
     margin-bottom: 70px;
 }
 
-.trendingHeading {
+.sectionHeading {
     font-weight: 700;
     font-size: 36px;
     color: #000;
     letter-spacing: 1px;
 }
 
-.trendingTitle p {
+.sectionTitle p {
     color: #0000009c;
     font-weight: 300;
 }
@@ -573,7 +573,7 @@ header {
     flex-direction: column;
     align-items: start;
     gap: 20px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .sellerImg {
@@ -642,7 +642,7 @@ header {
 
 /* TopCategories section css starts */
 .parallaxBg {
-    background: linear-gradient(357deg, #711f8bba, #711f8b), url(/public/assets/images/hero.webp) center / cover no-repeat;
+    background: linear-gradient(357deg, #000000b8, #000000bf), url(/public/assets/images/hero.webp) center / cover no-repeat;
     background-attachment: fixed;
     padding-block: 100px;
 }
@@ -653,13 +653,13 @@ header {
     padding-bottom: 50px;
 }
 
-.categoryGrid{
+.categoryGrid {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     align-items: stretch;
 }
 
-.categorySection .trendingHeading {
+.categorySection .sectionHeading {
     background: #fff;
     width: fit-content;
     margin: -35px auto 60px;
@@ -707,6 +707,216 @@ header {
     font-weight: 600;
 }
 
-.categoryCard a span{
+.categoryCard a span {
     font-weight: 300;
+}
+
+/* TopRated section css starts */
+.titleBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.borderBtn {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid var(--primary);
+    padding: 10px 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.borderBtn:hover {
+    background-color: var(--primary);
+    color: #fff;
+    border-color: transparent;
+}
+
+.ratedGrid {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 20px;
+}
+
+.ratedCard {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.ratedImg {
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    width: 100%;
+}
+
+.ratedImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.ratedImg::before {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    content: "";
+    height: 100%;
+    left: -85%;
+    position: absolute;
+    top: 0;
+    transform: skewX(-25deg);
+    width: 50%;
+    z-index: 2;
+}
+
+.ratedCard:hover .ratedImg::before {
+    animation: bookFlash 0.6s;
+}
+
+.ratedDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.starRated {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.starRated svg {
+    fill: #fd8312;
+}
+
+.ratedName {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+}
+
+:is(.ratedDetails, .bookLeft) .cartIcon {
+    background-color: var(--primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 0;
+}
+
+.ratedDetails .bookPrice {
+    position: relative;
+}
+
+.ratedDetails .cartIcon {
+    position: absolute;
+    top: 2px;
+    right: -35px;
+}
+
+/* FeatureBook section css starts */
+.featureBook .withBg {
+    background-color: #cccccc2b;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.featureBook .sellerGrid {
+    gap: 30px;
+}
+
+/* FlashSale section css starts */
+.saleBg {
+    background: linear-gradient(357deg, #000000b8, #000000bf), url(/public/assets/images/hero.webp) center / cover no-repeat;
+    background-attachment: fixed;
+    padding-block: 100px;
+}
+
+.bgTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    color: #ccc;
+    font-weight: 300;
+}
+
+.bgTitle .sectionHeading {
+    color: #fff;
+}
+
+.saleGrid {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.saleTestimonial .withBg {
+    background: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    /* width: fit-content; */
+}
+
+.bookLeft {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    align-items: center;
+}
+
+.progreStats {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    align-items: start;
+    font-size: 14px;
+    color: #727272;
+}
+
+.progressBar {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bookLeft .cartIcon {
+    flex-shrink: 0;
+}
+
+/* progress fill */
+.progressBar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 60%;
+    background: #fd8312;
+    border-radius: 10px;
+    transition: width 0.4s ease;
+}
+
+.saleTestimonial {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.fsSale{
+    font-size: 35px;
 }

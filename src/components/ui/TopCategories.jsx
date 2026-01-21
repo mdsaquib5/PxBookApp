@@ -6,7 +6,7 @@ const TopCategories = () => {
             <section className="parallaxBg">
                 <div className="container">
                     <div className="categorySection">
-                        <div className="trendingHeading">Top Categories</div>
+                        <div className="sectionHeading">Top Categories</div>
                         <div className="categoryGrid">
                             <div className="categoryCard">
                                 <div className="thumbImg">
