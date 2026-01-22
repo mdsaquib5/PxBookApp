@@ -378,3 +378,30 @@ export const blogs = [
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec metus vel ante feugiat finibus. Nullam nec metus vel ante feugiat finibus. Nullam nec metus vel ante feugiat finibus.",
   },
 ];
+
+export const hero = [
+  {
+    img: '../assets/images/seller-1.webp'
+  },
+  {
+    img: '../assets/images/seller-1.webp'
+  },
+  {
+    img: '../assets/images/seller-1.webp'
+  },
+  {
+    img: '../assets/images/seller-1.webp'
+  },
+  {
+    img: '../assets/images/seller-1.webp'
+  },
+  {
+    img: '../assets/images/seller-1.webp'
+  },
+  {
+    img: '../assets/images/seller-1.webp'
+  },
+  {
+    img: '../assets/images/seller-1.webp'
+  }
+];
