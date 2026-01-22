@@ -1,18 +1,12 @@
-import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, FreeMode } from 'swiper/modules';
+import { testimonialData } from '../../constants/data';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/free-mode';
 
 const Testimonial = () => {
-    const testimonialData = [
-        { id: 1, name: "Valerie J.", role: "CEO", logo: "/assets/images/bing.webp", avatar: "/assets/images/avatar-4.webp" },
-        { id: 2, name: "Hannah R.", role: "CEO", logo: "/assets/images/hubs.webp", avatar: "/assets/images/avatar-4.webp" },
-        { id: 3, name: "Pearl B. Hill", role: "Marketing", logo: "/assets/images/bing.webp", avatar: "/assets/images/avatar-4.webp" },
-        { id: 4, name: "Mandy Wood", role: "Designer", logo: "/assets/images/hubs.webp", avatar: "/assets/images/avatar-4.webp" },
-    ];
 
     // Common Configuration
     const commonConfig = {
