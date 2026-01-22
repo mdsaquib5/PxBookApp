@@ -11,6 +11,7 @@ import 'swiper/css/navigation';
 
 // 4. Utils
 import { calculateTimeLeft, formatTime } from '../../constants/timer';
+import { sale } from '../../constants/data';
 
 // 5. Icons
 import { FaStar } from 'react-icons/fa';
@@ -32,15 +33,16 @@ const FlashSale = () => {
         return () => clearInterval(timer);
     }, []);
 
-    /* -----------------------------
-       Swiper Configuration
-    ------------------------------ */
+    
     const swiperConfig = {
         modules: [Navigation],
         slidesPerView: 2,
         spaceBetween: 20,
         navigation: true,
-        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
         speed: 600,
         grabCursor: true,
     };
@@ -70,8 +72,8 @@ const FlashSale = () => {
                     {/* Slider */}
                     <div className="saleTestimonial">
                         <Swiper {...swiperConfig}>
-                            {[1, 2, 3].map((item) => (
-                                <SwiperSlide key={item}>
+                            {sale.map((item) => (
+                                <SwiperSlide key={item.id}>
                                     <div className="sellerCard withBg">
                                         <div className="sellerImg">
                                             <Link to="/">

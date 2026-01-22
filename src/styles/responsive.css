@@ -9,234 +9,248 @@
 
 /* <= 1200px */
 @media (max-width: 1200px) {
-    .ctaForm {
-        padding: 40px;
-    }
+	.ctaForm {
+		padding: 40px;
+	}
 
-    .ctaHeading {
-        font-size: 41px;
-    }
+	.ctaHeading {
+		font-size: 41px;
+	}
 
-    .footerItems {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+	.footerItems {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
 
-    .downapps a {
-        width: fit-content;
-    }
+	.downapps a {
+		width: fit-content;
+	}
 
-    .blogGrid, .servicesGrid, .booksGrid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+	.blogGrid,
+	.servicesGrid,
+	.booksGrid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
 
-    .sellerGrid{
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-        gap: 30px 0;
-    }
+	.sellerGrid {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+		gap: 30px 0;
+	}
 
-    .ratedGrid{
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
+	.ratedGrid {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
 
-    .categoryGrid{
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 50px 0;
-    }
+	.categoryGrid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 50px 0;
+	}
 
-    .hero{
-        padding-top: 130px;
-        padding-bottom: 60px;
-    }
+	.hero {
+		padding-top: 130px;
+		padding-bottom: 60px;
+	}
 
-    section{
-        padding-block: 60px;
-    }
+	section {
+		padding-block: 60px;
+	}
 
-    .sectionTitle{
-        width: 90%;
-        margin-bottom: 50px;
-    }
+	.sectionTitle {
+		width: 90%;
+		margin-bottom: 50px;
+	}
 
-    .heroContent{
-        width: 80%;
-    }
+	.heroContent {
+		width: 80%;
+	}
 
-    .heroHeading{
-        font-size: 45px;
-    }
+	.heroHeading {
+		font-size: 45px;
+	}
 
-    .sellerCard{
-        box-shadow: 0 12px 20px #3e3e3e1a;
-    }
+	.sellerCard {
+		box-shadow: 0 12px 20px #3e3e3e1a;
+	}
 
-    .titleBtn{
-        margin-bottom: 40px;
-    }
+	.titleBtn {
+		margin-bottom: 40px;
+	}
 }
 
 /* <= 992px */
 @media (max-width: 992px) {
-    
-    .ctaForm{
-        padding: 30px;
-    }
 
-    .footerItems{
-        padding-block: 30px;
-    }
+	.ctaForm {
+		padding: 30px;
+	}
 
-    .cta{
-        padding-bottom: 50px;
-    }
+	.footerItems {
+		padding-block: 30px;
+	}
 
-    .ctaFormHeading{
-        font-size: 26px;
-    }
+	.cta {
+		padding-bottom: 50px;
+	}
 
-    .ctaForm form button{
-        font-size: 20px;
-        top: 14px;
-    }
+	.ctaFormHeading {
+		font-size: 26px;
+	}
 
-    .ctaForm form input{
-        padding: 0 20px 0 10px;
-        font-size: 16px;
-    }
+	.ctaForm form button {
+		font-size: 20px;
+		top: 14px;
+	}
 
-    footer{
-        margin-top: 50px;
-    }
+	.ctaForm form input {
+		padding: 0 20px 0 10px;
+		font-size: 16px;
+	}
 
-    section{
-        padding-block: 40px;
-    }
+	footer {
+		margin-top: 50px;
+	}
 
-    .statsGrid{
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+	section {
+		padding-block: 40px;
+	}
 
-    .sectionTitle{
-        width: 100%;
-        padding-inline: 10px;
-    }
+	.statsGrid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
 
-    .heroContent{
-        width: 100%;
-    }
+	.sectionTitle {
+		width: 100%;
+		padding-inline: 10px;
+	}
 
-    .hero{
-        padding-bottom: 40px;
-    }
+	.heroContent {
+		width: 100%;
+	}
 
-    .sectionHeading{
-        font-size: 27px;
-    }
+	.hero {
+		padding-bottom: 40px;
+	}
 
-    .sectionTitle p{
-        font-size: 14px;
-    }
-    
-    .sellerCard{
-        box-shadow: none;
-    }
+	.sectionHeading {
+		font-size: 27px;
+	}
+
+	.sectionTitle p {
+		font-size: 14px;
+	}
+
+	.sellerCard {
+		box-shadow: none;
+	}
 }
 
 /* <= 768px */
 @media (max-width: 768px) {
 
-    .ctaHeading{
-        font-size: 38px;
-    }
+	.ctaHeading {
+		font-size: 38px;
+	}
 
-    .discount {
-        font-size: 14px;
-    }
+	.discount {
+		font-size: 14px;
+	}
 
-    .heroHeading{
-        font-size: 29px;
-    }
+	.heroHeading {
+		font-size: 29px;
+	}
 
-    .serviceCard{
-        padding: 30px;
-    }
-    
-    .sellerCard{
-        flex-direction: column;
-        align-items: stretch;
-    }
+	.serviceCard {
+		padding: 30px;
+	}
 
-    .sellerGrid{
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 50px 30px;
-    }
+	.sellerCard {
+		flex-direction: column;
+		align-items: stretch;
+	}
 
-    .sellerName, .price{
-        font-size: 30px;
-    }
+	.sellerGrid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 50px 30px;
+	}
 
-    .sellerCategory{
-        letter-spacing: 2px;
-    }
+	.sellerName,
+	.price {
+		font-size: 30px;
+	}
 
-    .sellerContent{
-        padding-inline: 15px;
-    }
+	.sellerCategory {
+		letter-spacing: 2px;
+	}
 
-    .featureBook .withBg{
-        padding: 12px;
-    }
+	.sellerContent {
+		padding-inline: 15px;
+	}
 
-    .blogCard, .bookCard{
-        padding: 10px;
-    }
+	.featureBook .withBg {
+		padding: 12px;
+	}
 
-    .bookName{
-        font-size: 26px;
-    }
+	.blogCard,
+	.bookCard {
+		padding: 10px;
+	}
+
+	.bookName {
+		font-size: 26px;
+	}
 }
 
-@media (max-width: 576px){
-    .booksGrid, .servicesGrid{
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-    }
+@media (max-width: 576px) {
 
-    .bookName{
-        font-size: 22px;
-    }
+	.booksGrid,
+	.servicesGrid {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
 
-    .bookPrice {
-        font-size: 18px;
-    }
+	.bookName {
+		font-size: 22px;
+	}
 
-    .serviceCard{
-        padding: 20px;
-    }
+	.bookPrice {
+		font-size: 18px;
+	}
 
-    .sellerGrid, .categoryGrid, .ratedGrid, .blogGrid, .statsGrid, .cta, .footerItems{
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-    }
+	.serviceCard {
+		padding: 20px;
+	}
 
-    .sellerName, .price, .blogTitle{
-        font-size: 26px;
-    }
+	.sellerGrid,
+	.categoryGrid,
+	.ratedGrid,
+	.blogGrid,
+	.statsGrid,
+	.cta,
+	.footerItems {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
 
-    .blogDetails p{
-        font-size: 14px;
-    }
+	.sellerName,
+	.price,
+	.blogTitle {
+		font-size: 26px;
+	}
 
-    .testimonialCard{
-        padding: 15px;
-    }
+	.blogDetails p {
+		font-size: 14px;
+	}
 
-    .cta{
-        padding-top: 30px;
-    }
+	.testimonialCard {
+		padding: 15px;
+	}
 
-    .footerBottom{
-        justify-content: center;
-    }
+	.cta {
+		padding-top: 30px;
+	}
 
-    .ctaHeading{
-        font-size: 28px;
-    }
+	.footerBottom {
+		justify-content: center;
+	}
+
+	.ctaHeading {
+		font-size: 28px;
+	}
 }

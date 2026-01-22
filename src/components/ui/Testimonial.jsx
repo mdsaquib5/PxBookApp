@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, FreeMode } from 'swiper/modules';
 import { testimonialData } from '../../constants/data';
+import TestimonialCard from '../items/TestimonialCard';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -41,17 +42,10 @@ const Testimonial = () => {
                 {[...testimonialData, ...testimonialData].map((item, index) => (
                     <SwiperSlide key={`row1-${index}`}>
                         {/* Logic: Even index gets 'even' class, Odd gets 'odd' */}
-                        <div className={`testimonialCard ${index % 2 === 0 ? 'even' : 'odd'}`}>
-                            <div className="card-header">
-                                <img src={item.logo} alt="brand" className="brand-logo" />
-                                <span className="quote-icon">“</span>
-                            </div>
-                            <p>"Our educational, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi."</p>
-                            <div className='testtimonialUser'>
-                                <img src={item.avatar} alt={item.name} />
-                                <p>{item.name}, {item.role}</p>
-                            </div>
-                        </div>
+                        <TestimonialCard 
+                            item={item}
+                            className={index % 2 === 0 ? 'even' : 'odd'}
+                        />
                     </SwiperSlide>
                 ))}
             </Swiper>
@@ -65,17 +59,10 @@ const Testimonial = () => {
                 {[...testimonialData, ...testimonialData].map((item, index) => (
                     <SwiperSlide key={`row2-${index}`}>
                         {/* Row 2 logic: Swap the odd/even to create the offset pattern */}
-                        <div className={`testimonialCard ${index % 2 !== 0 ? 'even' : 'odd'}`}>
-                            <div className="card-header">
-                                <img src={item.logo} alt="brand" className="brand-logo" />
-                                <span className="quote-icon">“</span>
-                            </div>
-                            <p>"Like this histudy, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi."</p>
-                            <div className='testtimonialUser'>
-                                <img src={item.avatar} alt={item.name} />
-                                <p>{item.name}, {item.role}</p>
-                            </div>
-                        </div>
+                        <TestimonialCard 
+                            item={item}
+                            className={index % 2 !== 0 ? 'even' : 'odd'}
+                        />
                     </SwiperSlide>
                 ))}
             </Swiper>
