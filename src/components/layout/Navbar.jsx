@@ -35,10 +35,10 @@ const Navbar = () => {
                             <div className="searchMenu">
                                 <div className="menu">
                                     <div
-                                        className="menu-btn"
+                                        className={`menu-btn ${showMenu && 'open-menu'}`}
                                         onClick={() => setShowMenu(!showMenu)}
                                     >
-                                        <span>Menu</span> <FaChevronDown />
+                                        <span>Categories</span> <FaChevronDown />
 
                                         {showMenu && (
                                             <ul className="menuItems">
@@ -98,7 +98,7 @@ const Navbar = () => {
                                                         </form>
                                                     </div>
                                                     <div className="menu">
-                                                        <div className="menu-btn" onClick={() => setShowMenu(!showMenu)}>
+                                                        <div className={`menu-btn ${showMenu && 'open-menu'}`} onClick={() => setShowMenu(!showMenu)}>
                                                             <span>Menu</span> <FaChevronDown />
                                                         </div>
                                                         {showMenu && (
