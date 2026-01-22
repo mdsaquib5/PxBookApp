@@ -38,7 +38,7 @@ const Stats = () => {
                                     <div className="statRing"></div>
                                     <div className="statItem">
                                         <div className="statIcon">
-                                            <img src="/assets/images/stat-1.png" alt="Stat Image" />
+                                            <img src="/assets/images/stat-1.webp" alt="Stat Image" />
                                         </div>
                                         <div>
                                             <div className="statCount">{customersCount} +</div>
@@ -54,7 +54,7 @@ const Stats = () => {
                                     <div className="statRing"></div>
                                     <div className="statItem">
                                         <div className="statIcon">
-                                            <img src="/assets/images/stat-1.png" alt="Stat Image" />
+                                            <img src="/assets/images/stat-1.webp" alt="Stat Image" />
                                         </div>
                                         <div>
                                             <div className="statCount">{booksCount} +</div>
@@ -70,7 +70,7 @@ const Stats = () => {
                                     <div className="statRing"></div>
                                     <div className="statItem">
                                         <div className="statIcon">
-                                            <img src="/assets/images/stat-1.png" alt="Stat Image" />
+                                            <img src="/assets/images/stat-1.webp" alt="Stat Image" />
                                         </div>
                                         <div>
                                             <div className="statCount">{authorsCount} +</div>
@@ -86,7 +86,7 @@ const Stats = () => {
                                     <div className="statRing"></div>
                                     <div className="statItem">
                                         <div className="statIcon">
-                                            <img src="/assets/images/stat-1.png" alt="Stat Image" />
+                                            <img src="/assets/images/stat-1.webp" alt="Stat Image" />
                                         </div>
                                         <div>
                                             <div className="statCount">{countriesCount} +</div>
