@@ -5,6 +5,7 @@ import { LuMail } from "react-icons/lu";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { IoLogoApple } from "react-icons/io";
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa6";
+import BackToTop from "../ui/BacktoTop";
 
 const Footer = () => {
     return (
@@ -80,15 +81,16 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footerBottom">
-                    <p>© 2025 All rights reserved by Px</p>
-                    <div className="socialIcons">
-                        <Link to={'/'}><FaFacebook /></Link>
-                        <Link to={'/'}><FaTwitter /></Link>
-                        <Link to={'/'}><FaInstagram /></Link>
-                        <Link to={'/'}><FaYoutube /></Link>
+                        <p>© 2025 All rights reserved by Px</p>
+                        <div className="socialIcons">
+                            <Link to={'/'}><FaFacebook /></Link>
+                            <Link to={'/'}><FaTwitter /></Link>
+                            <Link to={'/'}><FaInstagram /></Link>
+                            <Link to={'/'}><FaYoutube /></Link>
+                        </div>
                     </div>
                 </div>
-                </div>
+                <BackToTop />
             </footer>
         </>
     )

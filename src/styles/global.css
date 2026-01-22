@@ -193,7 +193,7 @@ header {
 	transition: all 0.3s ease;
 }
 
-.menuItems li a:hover{
+.menuItems li a:hover {
 	background-color: #711f8b17;
 }
 
@@ -202,7 +202,7 @@ header {
 	transition: all 0.3s ease;
 }
 
-.open-menu{
+.open-menu {
 	background-color: var(--primary);
 	color: #fff;
 }
@@ -1635,4 +1635,86 @@ footer {
 .appName p {
 	color: #8d8d8d;
 	font-size: 14px;
+}
+
+/* Back top top css starts */
+:root {
+  --scroll-progress: 0;
+}
+
+/* Top progress bar */
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: calc(var(--scroll-progress) * 1%);
+  background: linear-gradient(90deg, var(--primary), #b464e1);
+  z-index: 1000;
+}
+
+/* Button */
+.back-to-top {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(218.15deg, var(--primary) 0%, #b464e1 100%);
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+  transition: 0.3s ease;
+  z-index: 1000;
+  border: 0;
+  outline: none;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* Center content */
+.center {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-weight: 600;
+}
+
+.center small {
+  font-size: 10px;
+  opacity: 0.85;
+}
+
+/* SVG ring */
+.back-to-top svg {
+  position: absolute;
+  inset: 0;
+  transform: rotate(-90deg);
+}
+
+circle {
+  fill: none;
+  stroke-width: 4;
+}
+
+.bg {
+  stroke: rgba(255, 255, 255, 0.25);
+}
+
+.progress {
+  stroke: #fff;
+  stroke-dasharray: 283;
+  stroke-dashoffset: calc(
+    283 - (283 * var(--scroll-progress)) / 100
+  );
+  transition: stroke-dashoffset 0.2s linear;
 }
