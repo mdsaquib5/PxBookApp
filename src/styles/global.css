@@ -11,6 +11,10 @@
 	font-family: var(--font);
 }
 
+a{
+	color: inherit;
+}
+
 :root {
 	--primary: #711f8b;
 	--font: "Outfit", sans-serif;
@@ -133,6 +137,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	/* flex-wrap: wrap; */
 }
 
 .headerContainer>div {
@@ -198,7 +203,7 @@ header {
 }
 
 .search form input {
-	padding: 15px;
+	padding: 18px 15px;
 	border: none;
 	border-radius: 5px;
 	outline: none;
@@ -208,7 +213,7 @@ header {
 }
 
 .search {
-	min-width: 500px;
+	width: 500px;
 }
 
 .search form button {
@@ -216,6 +221,7 @@ header {
 	right: 10px;
 	font-size: 20px;
 	border: 0;
+	background-color: transparent;
 	cursor: pointer;
 	outline: none;
 }
@@ -224,7 +230,7 @@ header {
 	margin-bottom: 2px;
 }
 
-.header-right {
+.headerRight {
 	display: flex;
 	align-items: center;
 	gap: 30px;
@@ -235,7 +241,7 @@ header {
 	cursor: pointer;
 }
 
-.cartIcon svg {
+.cartIcon {
 	font-size: 20px;
 }
 
@@ -258,6 +264,80 @@ header {
 	border: none;
 	text-transform: uppercase;
 	font-weight: 600;
+}
+
+/* Mobile drawe panel css starts */
+.mobileDrawer {
+    position: relative;
+}
+
+.drawerToggle {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.drawerPanel {
+    position: fixed;
+    top: 0;
+    right: -350px;
+    width: 350px;
+    height: 100vh;
+    background: #fff;
+    box-shadow: -4px 0 12px rgba(0,0,0,0.15);
+    padding: 20px;
+    transition: right 0.3s ease;
+    z-index: 9999;
+}
+
+.drawerPanel.open {
+    right: 0;
+}
+
+.drawerClose {
+    background: #711f8b2e;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navItems, .panel{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.panel .menuItems{
+	position: relative;
+	border-color: transparent;
+	box-shadow: 0 12px 20px #3e3e3e1a;
+	margin-top: 20px;
+}
+
+.panel{
+	margin-top: 30px;
+}
+
+.panel .search{
+	width: 100%;
+}
+
+.panel .menu-btn{
+	justify-content: space-between;
+	border: 1px solid var(--primary);
+	padding: 12px;
+}
+
+.panel .navItems .btn{
+	border: 1px solid var(--primary);
+	text-align: center;
+	padding: 10px 20px;
 }
 
 /* hero section css starts */
@@ -647,6 +727,7 @@ header {
 	background: linear-gradient(357deg, #000000b8, #000000bf), url(/assets/images/hero.webp) center / cover no-repeat;
 	background-attachment: fixed;
 	padding-block: 100px;
+	overflow: hidden;
 }
 
 .categorySection {
@@ -850,7 +931,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	align-items: start;
-	gap: 40px;
+	gap: 20px;
 	color: #ccc;
 	font-weight: 300;
 }
@@ -943,6 +1024,7 @@ header {
 	border-radius: 10px;
 	display: flex;
 	align-items: center;
+	margin-top: 40px;
 }
 
 .timer * {
