@@ -41,7 +41,6 @@ const Testimonial = () => {
             >
                 {[...testimonialData, ...testimonialData].map((item, index) => (
                     <SwiperSlide key={`row1-${index}`}>
-                        {/* Logic: Even index gets 'even' class, Odd gets 'odd' */}
                         <TestimonialCard 
                             item={item}
                             className={index % 2 === 0 ? 'even' : 'odd'}
@@ -50,7 +49,6 @@ const Testimonial = () => {
                 ))}
             </Swiper>
 
-            {/* SECOND SLIDER (Sliding Right) */}
             <Swiper
                 {...commonConfig}
                 autoplay={{ delay: 0, disableOnInteraction: false, reverseDirection: true }}
@@ -58,7 +56,6 @@ const Testimonial = () => {
             >
                 {[...testimonialData, ...testimonialData].map((item, index) => (
                     <SwiperSlide key={`row2-${index}`}>
-                        {/* Row 2 logic: Swap the odd/even to create the offset pattern */}
                         <TestimonialCard 
                             item={item}
                             className={index % 2 !== 0 ? 'even' : 'odd'}

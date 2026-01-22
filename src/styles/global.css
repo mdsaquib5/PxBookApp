@@ -344,7 +344,7 @@ header {
 .booksGrid {
 	display: grid;
 	grid-template-columns: repeat(5, minmax(0, 1fr));
-	gap: 40px 24px;
+	gap: 40px 15px;
 	align-items: stretch;
 }
 
@@ -371,7 +371,7 @@ header {
 	overflow: hidden;
 	width: 100%;
 	border-radius: 10px;
-	height: 450px;
+	height: 350px;
 	position: relative;
 }
 

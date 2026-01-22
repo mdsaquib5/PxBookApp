@@ -19,6 +19,37 @@ const FeatureBook = () => {
         loop: false,
         speed: 600,
         grabCursor: true,
+        breakpoints: {
+            // 1800px → 1440px
+            1440: {
+                slidesPerView: 2,
+            },
+            1240: {
+                slidesPerView: 2,
+            },
+            // 1240px → 1024px
+            1024: {
+                slidesPerView: 1,
+            },
+            // 1024px → 992px
+            992: {
+                slidesPerView: 1,
+            },
+
+            // 992px → 768px
+            768: {
+                slidesPerView: 2,
+            },
+            // 768px → 576px
+            576: {
+                slidesPerView: 1,
+            },
+
+            // below 576px
+            0: {
+                slidesPerView: 1,
+            }
+        }
     };
     return (
         <>
