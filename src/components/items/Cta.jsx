@@ -11,8 +11,8 @@ const Cta = () => {
                 <div className="ctaFormHeading">Join Our Newsletter</div>
                 <p>Sign up to receive updates on new courses, tutorials, and exclusive offers.</p>
                 <form action="">
-                    <input type="email" name="email" placeholder="Enter your email address" />
-                    <button><FaTelegramPlane fill="#ffff" /></button>
+                    <input type="email" name="email" placeholder="Enter your email address" required />
+                    <button type="submit"><FaTelegramPlane fill="#ffff" /></button>
                 </form>
             </div>
         </div>

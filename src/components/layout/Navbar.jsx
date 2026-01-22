@@ -54,7 +54,7 @@ const Navbar = () => {
 
                                 <div className="search">
                                     <form>
-                                        <input type="text" placeholder="Find books here..." />
+                                        <input type="text" placeholder="Find books here..." required />
                                         <button type="submit">
                                             <CiSearch />
                                         </button>
@@ -93,8 +93,8 @@ const Navbar = () => {
                                                 <div className="panel">
                                                     <div className="search">
                                                         <form action="">
-                                                            <input type="text" placeholder="Find books here..." />
-                                                            <button><CiSearch /></button>
+                                                            <input type="text" placeholder="Find books here..." required />
+                                                            <button type="sumit"><CiSearch /></button>
                                                         </form>
                                                     </div>
                                                     <div className="menu">
