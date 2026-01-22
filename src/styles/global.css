@@ -1406,7 +1406,7 @@ footer {
     background-color: #fff;
     width: 36px;
     height: 36px;
-    border-radius: 47% 53% 51% 49% / 34% 32% 68% 66%;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
