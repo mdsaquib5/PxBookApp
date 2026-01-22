@@ -12,10 +12,8 @@ import ScrollToTop from "./components/layout/ScrollToTop";
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div>
-
-        <ScrollToTop />
-
         <Navbar />
 
         <Routes>
