@@ -1651,6 +1651,7 @@ footer {
   width: calc(var(--scroll-progress) * 1%);
   background: linear-gradient(90deg, var(--primary), #b464e1);
   z-index: 1000;
+  border-radius: 10px;
 }
 
 /* Button */

@@ -13,12 +13,8 @@ import 'swiper/css/navigation';
 import { calculateTimeLeft, formatTime } from '../../constants/timer';
 import { sale } from '../../constants/data';
 
-// 5. Icons
-import { FaStar } from 'react-icons/fa';
-import { FaBasketShopping } from 'react-icons/fa6';
-
-// 6. Router
-import { Link } from 'react-router-dom';
+// 5. Components
+import SaleCard from '../items/SaleCard';
 
 const FlashSale = () => {
     const [timeLeft, setTimeLeft] = useState(
@@ -33,7 +29,7 @@ const FlashSale = () => {
         return () => clearInterval(timer);
     }, []);
 
-    
+
     const swiperConfig = {
         modules: [Navigation],
         slidesPerView: 2,
@@ -105,50 +101,7 @@ const FlashSale = () => {
                         <Swiper {...swiperConfig}>
                             {sale.map((item) => (
                                 <SwiperSlide key={item.id}>
-                                    <div className="sellerCard withBg">
-                                        <div className="sellerImg">
-                                            <Link to="/">
-                                                <img
-                                                    alt=""
-                                                    src="/assets/images/seller-1.jpg"
-                                                />
-                                            </Link>
-                                        </div>
-
-                                        <div className="sellerContent">
-                                            <div className="sellerCategory">
-                                                <Link to="/">Adventure</Link>
-                                            </div>
-
-                                            <div className="starRated">
-                                                <FaStar /><FaStar /><FaStar />
-                                                <FaStar /><FaStar />
-                                            </div>
-
-                                            <div className="sellerName fsSale">
-                                                A Heavy Lift
-                                            </div>
-
-                                            <div className="sellerAuthor">
-                                                By: <span>John Doe</span>
-                                            </div>
-
-                                            <div className="price fsSale">
-                                                $12.99 <span>$14.99</span>
-                                            </div>
-
-                                            <div className="bookLeft">
-                                                <div className="progreStats">
-                                                    <div className="progressBar"></div>
-                                                    <div>47 Books Left</div>
-                                                </div>
-
-                                                <button className="cartIcon">
-                                                    <FaBasketShopping fill="#fff" />
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <SaleCard item={item} />
                                 </SwiperSlide>
                             ))}
                         </Swiper>

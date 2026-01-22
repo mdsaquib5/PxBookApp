@@ -85,7 +85,7 @@ export const featured = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-1.jpg",
+    img: "/assets/images/seller-1.webp",
     rating: 4.5,
   },
   {
@@ -94,7 +94,7 @@ export const featured = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-2.jpg",
+    img: "/assets/images/seller-1.webp",
     rating: 4.5,
   },
   {
@@ -103,7 +103,7 @@ export const featured = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-1.jpg",
+    img: "/assets/images/seller-1.webp",
     rating: 4.5,
   },
   {
@@ -112,7 +112,7 @@ export const featured = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-2.jpg",
+    img: "/assets/images/seller-1.webp",
     rating: 4.5,
   },
 ];
@@ -124,8 +124,9 @@ export const sale = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-1.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
+    leftBooks: 10,
   },
   {
     id: 2,
@@ -133,8 +134,9 @@ export const sale = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-2.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
+    leftBooks: 10,
   },
   {
     id: 3,
@@ -142,8 +144,9 @@ export const sale = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-1.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
+    leftBooks: 10,
   },
   {
     id: 4,
@@ -151,8 +154,9 @@ export const sale = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-2.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
+    leftBooks: 10,
   },
 ];
 
@@ -163,7 +167,7 @@ export const ratedCard = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-1.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
   },
   {
@@ -172,7 +176,7 @@ export const ratedCard = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-2.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
   },
   {
@@ -181,7 +185,7 @@ export const ratedCard = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-1.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
   },
   {
@@ -190,7 +194,7 @@ export const ratedCard = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-2.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
   },
   {
@@ -199,7 +203,7 @@ export const ratedCard = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-2.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
   },
   {
@@ -208,7 +212,7 @@ export const ratedCard = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-1.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
   },
   {
@@ -217,7 +221,7 @@ export const ratedCard = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-2.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
   },
   {
@@ -226,7 +230,7 @@ export const ratedCard = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-2.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
   },
   {
@@ -235,7 +239,7 @@ export const ratedCard = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-1.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
   },
   {
@@ -244,7 +248,7 @@ export const ratedCard = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-2.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
   },
   {
@@ -253,7 +257,7 @@ export const ratedCard = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-2.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
   },
 ];
@@ -265,7 +269,7 @@ export const sellerData = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-1.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
   },
   {
@@ -274,7 +278,7 @@ export const sellerData = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-2.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
   },
   {
@@ -283,7 +287,7 @@ export const sellerData = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-2.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
   },
   {
@@ -292,7 +296,7 @@ export const sellerData = [
     author: "John Doe",
     price: 12.99,
     discount: 14.99,
-    img: "/assets/images/seller-2.jpg",
+    img: "../assets/images/seller-1.webp",
     rating: 4.5,
   },
 ];
@@ -335,34 +339,42 @@ export const testimonialData = [
 export const blogs = [
   {
     id: 1,
+    category: 'category',
+    time: '10 min read',
     title: "Blog Title",
     author: "John Doe",
-    date: "2022-01-01",
-    img: "/assets/images/seller-4.jpg",
+    date: "Mar 17 2026",
+    img: "../assets/images/seller-1.webp",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec metus vel ante feugiat finibus. Nullam nec metus vel ante feugiat finibus. Nullam nec metus vel ante feugiat finibus.",
   },
   {
     id: 2,
+    category: 'category',
+    time: '10 min read',
     title: "Blog Title",
     author: "John Doe",
-    date: "2022-01-01",
-    img: "/assets/images/seller-4.jpg",
+    date: "Mar 17 2026",
+    img: "../assets/images/seller-1.webp",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec metus vel ante feugiat finibus. Nullam nec metus vel ante feugiat finibus. Nullam nec metus vel ante feugiat finibus.",
   },
   {
     id: 3,
+    category: 'category',
+    time: '10 min read',
     title: "Blog Title",
     author: "John Doe",
-    date: "2022-01-01",
-    img: "/assets/images/seller-4.jpg",
+    date: "Mar 17 2026",
+    img: "../assets/images/seller-1.webp",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec metus vel ante feugiat finibus. Nullam nec metus vel ante feugiat finibus. Nullam nec metus vel ante feugiat finibus.",
   },
   {
     id: 4,
+    category: 'category',
+    time: '10 min read',
     title: "Blog Title",
     author: "John Doe",
-    date: "2022-01-01",
-    img: "/assets/images/seller-4.jpg",
+    date: "Mar 17 2026",
+    img: "../assets/images/seller-1.webp",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec metus vel ante feugiat finibus. Nullam nec metus vel ante feugiat finibus. Nullam nec metus vel ante feugiat finibus.",
   },
 ];

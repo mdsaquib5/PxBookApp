@@ -13,7 +13,7 @@ const Blogs = () => {
                     <div className="blogGrid">
                         {
                             blogs.map((item, index) => (
-                                <BlogCard key={index} blog={item} />
+                                <BlogCard key={index} item={item} />
                             ))
                         }
                     </div>
