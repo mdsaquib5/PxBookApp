@@ -6,11 +6,16 @@ import Footer from "./components/layout/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import "./styles/global.css";
+import "./styles/responsive.css";
+import ScrollToTop from "./components/layout/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
       <div>
+
+        <ScrollToTop />
+
         <Navbar />
 
         <Routes>

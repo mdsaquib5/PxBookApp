@@ -25,8 +25,9 @@ const Testimonial = () => {
         speed: 13000,
         modules: [Autoplay, FreeMode],
         breakpoints: {
-            640: { slidesPerView: 2 },
-            1024: { slidesPerView: 4 },
+            1200: { slidesPerView: 3 },
+            1024: { slidesPerView: 2 },
+            640: { slidesPerView: 1 },
         },
     };
 

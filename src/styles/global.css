@@ -18,12 +18,12 @@
     --container-padding: 15px;
 
     /* Max widths */
-    --container-xxl: 1820px;
-    --container-xxl-sm: 1600px;
-    --container-xl: 1440px;
-    --container-lg: 1200px;
-    --container-md: 992px;
-    --container-sm: 768px;
+    --container-xxl-sm: 1820px;
+    --container-xl: 1600px;
+    --container-lg: 1440px;
+    --container-md: 1200px;
+    --container-sm: 992px;
+    --container-xs: 768px;
 }
 
 body {
@@ -340,7 +340,7 @@ header {
 .booksGrid {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 24px;
+    gap: 40px 24px;
     align-items: stretch;
 }
 
@@ -714,7 +714,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 70px;
+    gap: 20px 0;
 }
 
 .borderBtn {
@@ -737,7 +739,7 @@ header {
     display: grid;
     grid-template-columns: repeat(7, minmax(0, 1fr));
     align-items: stretch;
-    gap: 20px;
+    gap: 50px 20px;
 }
 
 .ratedCard {
@@ -1000,7 +1002,6 @@ header {
 .blogTitle {
     font-size: 30px;
     font-weight: 600;
-    line-clamp: 1;
 }
 
 .blogDetails p {
@@ -1371,6 +1372,8 @@ footer {
     align-items: center;
     color: #ccc;
     padding-inline: 20px;
+    flex-wrap: wrap;
+    gap: 30px 0;
 }
 
 .socialIcons {
